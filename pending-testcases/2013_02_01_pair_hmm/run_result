@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd sootOutput
+java -cp . edu.syr.pcpratts.rootbeer.testcases.rootbeertest.serialization.PairHmmJimpleTest

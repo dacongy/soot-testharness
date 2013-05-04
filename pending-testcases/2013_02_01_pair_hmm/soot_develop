@@ -1,0 +1,4 @@
+#!/bin/sh
+
+java -cp soot-develop.jar soot.Main -pp -process-dir build/classes -cp build/classes -output-format c
+java -cp soot-develop.jar soot.Main -pp -process-dir build/classes -cp build/classes -output-format J

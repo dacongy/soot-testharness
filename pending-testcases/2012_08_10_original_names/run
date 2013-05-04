@@ -1,0 +1,5 @@
+#!/bin/sh
+
+#java -cp sootclasses-trunk.jar:AXMLPrinter2.jar:jasminclasses-2.5.0.jar:java-cup-11a.jar soot.Main -whole-program -f c -p cg.spark dump-html:true -p jb use-original-names:true -pp --process-dir sootLocalsTestcase/build/classes/
+
+java -cp sootclasses-trunk.jar:AXMLPrinter2.jar:jasminclasses-2.5.0.jar:java-cup-11a.jar soot.Main -whole-program -f J -p jb use-original-names:true -pp --process-dir sootLocalsTestcase/build/classes/

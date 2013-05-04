@@ -1,0 +1,3 @@
+#!/bin/sh
+
+java -cp lib/classes.jar:lib/ui.jar -jar ../deploy_soot/soot-github/lib/soot-develop.jar -cp dist/MacSootParserTest.jar:lib/classes.jar:lib/ui.jar -process-dir dist/MacSootParserTest.jar -output-format c -include-all
